@@ -1,0 +1,12 @@
+<div class="single_head">
+<h4>%%DATE where="single" format="d/m/Y"%%</h4>
+</div>
+%%CONTENT%%
+
+<div class="entry-meta entry-meta-bottom">
+    <h4>%%DATE where="loop" format="d/m/Y"%%</h4>
+	%%AUTHOR before="<?php _e( 'by ', 'child-theme-domain' ); ?>"%%
+	%%COMMENTS%%
+    %%TAXONOMY name="category" before="<?php _e( 'Posted in ', 'child-theme-domain' ); ?>"%%
+	%%TAXONOMY name="post_tag"%%
+</div>
